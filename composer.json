@@ -7,10 +7,12 @@
     "require": {
         "php": "^7.2.5",
         "doctrine/dbal": "^2.10",
-        "laravel/lumen-framework": "^7.0"
+        "laravel/lumen-framework": "^7.0",
+        "spatie/data-transfer-object": "^1.13"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.9.1",
+        "mbezhanov/faker-provider-collection": "^1.2",
         "mockery/mockery": "^1.3.1",
         "phpunit/phpunit": "^8.5"
     },

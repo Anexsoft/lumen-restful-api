@@ -3,6 +3,7 @@
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
 use App\User;
+use App\Models\Product;
 use App\Models\Customer;
 use Illuminate\Support\Str;
 use Faker\Generator as Faker;
@@ -31,5 +32,16 @@ $factory->define(Customer::class, function (Faker $faker) {
         'last_name' => $faker->lastName,
         'address' => $faker->address,
         'identification' => Str::random(20)
+    ];
+});
+
+$factory->define(Product::class, function (Faker $faker) {
+    $faker->addProvider(new \Bezhanov\Faker\Provider\Commerce($faker));
+
+    return [
+        'sku' => Str::random(20),
+        'name' => $faker->productName,
+        'description' => $faker->text(200),
+        'price' => $faker->numberBetween(1, 250)
     ];
 });
