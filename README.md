@@ -17,4 +17,6 @@ Actualicen la cadena de conexión que esta en el archivo .env por la de ustedes 
 Los usuarios que tiene la base de datos se les ha asignado la contraseña **123456** a través del seeder.
 
 ## ¿Quiéres aprender sobre esto?
-Puedes encontrar mayor información a través del siguiente enlace [http://kodoti.com/cursos/api-restful-con-lumen](http://kodoti.com/cursos/api-restful-con-lumen)
+En **KODOTI** tenemos un curso donde aprenderemos a desarrollar esta API y también veremos como hacer la publicación hasta producción a través de **HEROKU**.
+
+[http://kodoti.com/cursos/api-restful-con-lumen](http://kodoti.com/cursos/api-restful-con-lumen)
