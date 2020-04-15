@@ -14,7 +14,10 @@
  */
 
 $router->get('/', function () use ($router) {
-    return $router->app->version();
+    return [
+        'version' => $router->app->version(),
+        'environment' => $router->app->environment()
+    ];
 });
 
 $router->get('kodoti', 'ExampleController@index');
