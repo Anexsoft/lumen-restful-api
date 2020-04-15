@@ -9,7 +9,7 @@ La siguiente API ha sido creada para el curso de RESTFul API de **KODOTI**.
 ### Cambiar la cadena de conexión
 Actualicen la cadena de conexión que esta en el archivo .env por la de ustedes y ejecutar el siguiente comando.
 
-```php artisan migration --seed```
+```php artisan migrate:refresh --seed```
 
 **Nota**: *recuerda tener creada la base de datos antes*
 
