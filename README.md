@@ -1,24 +1,20 @@
-# Lumen PHP Framework
+# RESTFul API con Lumen
+La siguiente API ha sido creada para el curso de RESTFul API de **KODOTI**.
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+## ¿Cómo levantar el proyecto?
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+### Instalar las dependencias de composer
+`composer install`
 
-## Official Documentation
+### Cambiar la cadena de conexión
+Actualicen la cadena de conexión que esta en el archivo .env por la de ustedes y ejecutar el siguiente comando.
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+```php artisan migration --seed```
 
-## Contributing
+**Nota**: *recuerda tener creada la base de datos antes*
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Sobre los usuarios creados
+Los usuarios que tiene la base de datos se les ha asignado la contraseña **123456** a través del seeder.
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## ¿Quiéres aprender sobre esto?
+Puedes encontrar mayor información a través del siguiente enlace [http://kodoti.com/cursos/api-restful-con-lumen](http://kodoti.com/cursos/api-restful-con-lumen)
