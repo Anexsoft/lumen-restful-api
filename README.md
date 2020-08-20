@@ -19,4 +19,4 @@ Los usuarios que tiene la base de datos se les ha asignado la contraseña **1234
 ## ¿Quiéres aprender sobre esto?
 En **KODOTI** tenemos un curso donde aprenderemos a desarrollar esta API y también veremos como hacer la publicación hasta producción a través de **HEROKU**.
 
-[http://kodoti.com/cursos/api-restful-con-lumen](http://kodoti.com/cursos/api-restful-con-lumen)
+https://www.udemy.com/course/api-restful-con-lumen-7/?referralCode=BFB2C52BB8CBA1C37D70
